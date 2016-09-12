@@ -1,7 +1,7 @@
 <?php
 	// get our parameters for user in the form but also in the curl requests
-	$params = array("client_id" => array_key_exists('client_id', $_POST) ? $_POST['client_id'] : '',
-		  			"client_secret" => array_key_exists('client_secret', $_POST) ? $_POST['client_secret'] : '',
+	$params = array("client_id" => array_key_exists('client_id', $_POST) ? $_POST['client_id'] : '01d64c87b96d4c18a1cb22fadcd41335',
+		  			"client_secret" => array_key_exists('client_secret', $_POST) ? $_POST['client_secret'] : 'bed6c1f720154c8b90fdcec2d2a94537',
 		  			"hostname" => array_key_exists('hostname', $_POST) ? $_POST['hostname'] : '',
 		  			"resource" => array_key_exists('resource', $_POST) ? $_POST['resource'] : '',
 		  			"querystring" => array_key_exists('querystring', $_POST) ? $_POST['querystring'] : '',
